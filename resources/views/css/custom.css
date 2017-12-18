@@ -1,0 +1,299 @@
+/* These styles have been placed here for
+* convience as they have a high chance of being
+* changed if one decides to modify the header
+-----------------------------------------------*/
+/* THEME  G5 */
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #fff;
+}
+.panel {
+    border-color: #A8D26C;
+}
+.panel-heading {
+    border-bottom: 1px solid #CFEEA2;
+    background-image: -webkit-linear-gradient(top, #CFEEA299 1%,#CFEEA2 100%);
+    background-image: linear-gradient(to bottom, #CFEEA299 1%,#CFEEA2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CFEEA299', endColorstr='#CFEEA2',GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.panel-menu {
+    background-color: #CFEEA299;
+}
+
+/* BREADCRUMB */
+#topbar {
+    background-image: none;
+    background-color: #CFEEA299;
+}
+/* SIDE BAR */
+ul.sidebar-nav > li > a {
+    border-bottom: 1px solid #80AD3E;
+    background-image: -webkit-linear-gradient(top, #CFEEA299 1%,#CFEEA2 100%);
+    background-image: linear-gradient(to bottom, #CFEEA299 1%,#CFEEA2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CFEEA299', endColorstr='#CFEEA2',GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+ul.sidebar-nav > li > a .glyphicons {
+    border-right: 1px solid #80AD3E;
+}
+/*ul.sidebar-nav a.actual {
+    background-color: #CFEEA280;
+}
+ul.sidebar-nav li a.actual {
+    background-color: #CFEEA280;
+}*/
+
+/* OTHERS */
+.header-btns > div > button:focus {
+    color: #666;
+}
+
+/* Error pages */
+.icon-option-menu li a {
+    cursor: pointer;
+}
+.icon-option-menu li a i {
+    padding-right: 6px;
+    color: #777;
+}
+
+/* Icon page */
+#icon-nav.affix {top: 80px;}
+#icon-nav ul {width: 220px;}
+#icon-nav li:hover span {color: #444;}
+#icon-nav li.active span {color: #428bca}
+
+/* Icon Titles */
+.panel-body .page-header {color: #428bca;font-size: 18px;}
+
+/* Icon List */ 
+#glyphicons-icon-list,
+#glyphicon-icon-list,
+#imoon-icon-list,
+.fa-icon-list {
+    font-size: 12px;
+    padding-left: 0;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    list-style: none;
+    overflow: hidden;
+}
+#glyphicons-icon-list li,
+#glyphicon-icon-list li,
+#imoon-icon-list li,
+.fa-icon-list li {
+    float: left;
+    width: 25%;
+    height: 100px;
+    padding: 5px;
+    line-height: 1.4;
+    text-align: center;
+}
+#glyphicons-icon-list .glyphicons,
+#glyphicon-icon-list .glyphicon,
+#imoon-icon-list .imoon,
+.fa-icon-list .fa {
+    display: block;
+    margin: 5px auto 15px;
+    font-size: 24px;
+}
+#glyphicons-icon-list li:hover,
+#glyphicon-icon-list li:hover,
+#imoon-icon-list li:hover,
+.fa-icon-list li:hover {
+    color: #428bca;
+}
+
+/* Place custom styles below this line 
+---------------------------------------*/
+#error-container{
+    margin-top: 15%;
+}
+
+#topbar{
+    height: 45px;
+}
+
+#all{
+    margin: 0;
+}
+
+#nam_city{
+    width: 0;
+}
+
+legend{
+    font-variant: small-caps;
+}
+
+.disabled{
+    cursor: not-allowed;
+}
+
+/* User Menu */
+.header-btns > div.user-menu{
+    min-width: 200px;
+}
+.header-btns .user-menu > .btn:first-child{
+    min-width: 200px;
+}
+.user-menu ul.dropdown-menu{
+    margin-left: 0;
+    min-width: 200px;
+    width: 100%;    
+}
+.menu-arrow{
+    left: 50% !important;
+}
+
+.user-menu .item-message{
+    width: 70% !important;
+}
+
+/* Data Table */
+
+.dataTables_filter span{
+    font-weight: bold;    
+    position: relative;
+    top: 7px;
+    margin-right:5px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/*div.dataTables_info{
+    padding-top: 0 !important;
+}*/
+
+table.dataTable tr.row_selected td{
+    background-color: #efefef !important;
+}
+
+.dataTables_filter {
+    margin-bottom: 20px;
+}
+
+/* Input datatable editable */
+.edit > input{
+    width: 70% !important;    
+}
+.edit select{
+    width: 50% !important;    
+}
+
+#tab1 .input-group-addon{
+    cursor: pointer;
+}
+
+.cel label{
+    display: table;
+    padding-left: 15px;
+    margin-bottom: 0 !important;
+}
+
+header.navbar-fixed-top + #main {
+    height: 61px;
+    padding-top: 61px;
+}
+
+.navbar {
+    min-height: 61px;
+}
+.navbar-brand {
+    height: 60px;
+}
+.navbar-brand .navbar-logo {
+    max-width: 154px;
+}
+
+/*ul.sidebar-nav li a:hover {
+    background-color: #eee;
+}*/
+
+/*row padding (Datables)*/
+.table-striped > tbody > tr:nth-child(2n+1) > td {
+    padding: 6.5px 8px;
+}
+
+.table-striped > tbody > tr:nth-child(2n) > td {
+    padding: 6.5px 8px;
+}
+
+/*disable dotted border*/
+:focus {outline:none !important;}
+
+/* panel */
+.panel, .panel-heading {
+    overflow: visible;
+}
+
+
+/* FORM */
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    cursor: default;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+/*** TOGGLES ***/
+.toggle {
+    margin: 0 auto;
+}
+
+/*** bootstrap alert ***/
+/*#modal-alert .alert{
+    margin-bottom: 0;
+}*/
+
+/*** ÚTEIS ***/
+.no-padding_l {
+    padding-left: 0;
+}
+.no-padding_r {
+    padding-right: 0;
+}
+
+/*** BOOTSTRAP MODAL FIX ***/
+.modal-dialog {
+    position: relative;
+    width: auto;
+    max-width: 600px;
+    margin: 10px;
+}
+.modal-sm {
+    max-width: 300px;
+}
+.modal-lg {
+    max-width: 900px;
+}
+@media (min-width: 768px) {
+    .modal-dialog {
+        margin: 30px auto;
+    }
+}
+@media (min-width: 320px) {
+    .modal-sm {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media (min-width: 620px) {
+    .modal-dialog {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .modal-lg {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+@media (min-width: 920px) {
+    .modal-lg {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

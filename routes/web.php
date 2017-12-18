@@ -15,7 +15,7 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->group(['prefix' => 'api'], function($router) {
+$router->group(['prefix' => 'api', 'middleware' => ['cors']], function($router) {
     $router->get('/', 'HomeController@index');
     // show all
     $router->get('users', 'UsersController@index');

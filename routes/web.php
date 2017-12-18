@@ -16,5 +16,15 @@ $router->get('/', function () use ($router) {
 });
 
 $router->group(['prefix' => 'api'], function($router) {
+    $router->get('/', 'HomeController@index');
+    // show all
     $router->get('users', 'UsersController@index');
+    // show by id
+    $router->get('users/{id}', 'UsersController@show');
+    // create
+    $router->post('users', 'UsersController@store');
+    // update
+    $router->put('users/{id}', 'UsersController@update');
+    // delete
+    $router->delete('users/{id}', 'UsersController@destroy');
 });
